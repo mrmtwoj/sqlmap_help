@@ -104,12 +104,12 @@ You can use other DBMS types like MySQL, Oracle, PostgreSQL, Microsoft SQL Serve
 # Attack Techniques
 –technique Specify a letter or letters of BEUSTQ to control the exploit attempts:
 
-B: Boolean-based blind
-E: Error-based
-U: Union query-based
-S: Stacked queries
-T: Time-based blind
-Q: Inline queries
+* B: Boolean-based blind
+* E: Error-based
+* U: Union query-based
+* S: Stacked queries
+* T: Time-based blind
+* Q: Inline queries
 ```bash
 sqlmap -u “https://target_site.com/page?p1=value1” --technique=BEUSTQ
 ```
@@ -150,6 +150,6 @@ sqlmap -u “https://target_site.com/page/”--proxy="http://127.0.0.1:8080/" --
 As always I hope you found this SQLMap cheat sheet useful. Guys, feel free to show the post some love and share the cheat sheet to your friends and colleagues. I will also post in a detailed SQLMap tutorial soon.
 
 # References
-http://sqlmap.org/
-https://tools.kali.org/vulnerability-analysis/sqlmap
-https://gitlab.com/kalilinux/packages/sqlmap
+* http://sqlmap.org/
+* https://tools.kali.org/vulnerability-analysis/sqlmap
+* https://gitlab.com/kalilinux/packages/sqlmap
